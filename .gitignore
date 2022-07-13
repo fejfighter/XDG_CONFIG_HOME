@@ -1,0 +1,47 @@
+
+emacs
+*~
+\#*\#
+
+
+#####################
+# Gnome things
+#####################
+gnome*
+gtk*
+ibus
+libvirt/
+nautilus
+totem
+gedit
+gconf
+.gsd*
+eog
+dconf
+
+#####################
+# RedHat/ Fedora
+#####################
+abrt
+cni
+dleyna*
+ibus
+toolbox
+Rygel
+rygel.conf
+evolution
+fedoraproject.org
+pulse
+enchant
+
+libreoffice
+# systemd/user/*.wants
+Yubico
+sakura
+gdb
+hexchat
+
+user-*
+connections.db
+mimeapps.list
+monitors.xml
