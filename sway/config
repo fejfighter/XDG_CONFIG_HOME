@@ -85,6 +85,7 @@ output eDP-1 resolution 2560x1440 scale 1
     bindsym $mod+l exec $locker
 
     bindsym $mod+q exec emacs
+    bindsym $mod+tab exec swaync-client -t
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -97,7 +98,8 @@ output eDP-1 resolution 2560x1440 scale 1
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+    # bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec wlogout
 #
 # Moving around:
 #
