@@ -1,0 +1,12 @@
+[user]
+	email = fejfighter@gmail.com
+	name = Jeff Walsh
+	signingkey = F3C4C8E2F28EE6C4DC527466D086D15485032595!
+[alias]
+	last = log HEAD@{1}..HEAD@{0}
+[init]
+	defaultBranch = main
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
+[commit]
+	gpgsign = true
