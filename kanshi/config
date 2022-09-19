@@ -1,0 +1,8 @@
+profile Desk {
+	output 'Ancor Communications Inc ASUS PB278 D7LMTF048907' mode 2560x1440 position 0,0
+	output eDP-1 mode 2560x1440 position 0,1440
+}
+
+profile portable {
+	output eDP-1 mode 2560x1440 position 0,0
+}
