@@ -84,6 +84,7 @@ output eDP-1 resolution 2560x1440 scale 1
 
     bindsym $mod+l exec $locker
 
+    # bindsym $mod+q exec flatpak run org.gnu.emacs-pgtk
     bindsym $mod+q exec emacs
     bindsym $mod+tab exec swaync-client -t
 
