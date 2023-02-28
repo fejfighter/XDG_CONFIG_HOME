@@ -3,6 +3,11 @@ profile Desk {
 	output eDP-1 mode 2560x1440 position 0,1440
 }
 
+profile DeskSimple {
+	output 'DP-2 "Dell Inc. DELL U2722D BTC4CH3' mode 2560x1440 position 0,0
+	output eDP-1 mode 2560x1440 position 0,1440
+}
+
 profile portable {
 	output eDP-1 mode 2560x1440 position 0,0
 }
