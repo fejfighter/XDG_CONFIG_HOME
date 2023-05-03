@@ -74,7 +74,7 @@ output eDP-1 resolution 2560x1440 scale 1
 # Basics:
 #
     # Start a terminal
-    bindsym $mod+Return exec $term
+    bindsym $mod+Return exec flatpak run org.wezfurlong.wezterm
 
     # Kill focused window
     bindsym $mod+Shift+q kill
@@ -197,7 +197,7 @@ output eDP-1 resolution 2560x1440 scale 1
     bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
     bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym XF86MonBrightnessUp exec brightnessctl set +5%
-
+    bindsym XF86Display output eDP-1 toggle
 #
 # Resizing containers:
 #
@@ -222,25 +222,6 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
-
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-bar {
-    swaybar_command waybar	
-    position top
-
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    #     status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
-
-    # colors {
-    #     statusline #ffffff
-    #     background #323232
-    #     inactive_workspace #32323200 #32323200 #5c5c5c
-    # }
-}
 
 input 1739:0:Synaptics_TM3289-021 {
       tap enabled

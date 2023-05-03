@@ -4,8 +4,21 @@ profile Desk {
 }
 
 profile DeskSimple {
-	output 'DP-2 "Dell Inc. DELL U2722D BTC4CH3' mode 2560x1440 position 0,0
+	output 'DP-1 "Dell Inc. DELL U2722D BTC4CH3' mode 2560x1440 position 0,0
 	output eDP-1 mode 2560x1440 position 0,1440
+}
+
+profile DeskOnly {
+	output 'Ancor Communications Inc ASUS PB278 D7LMTF048907' mode 2560x1440 position 0,0
+	output 'DP-1 "Dell Inc. DELL U2722D BTC4CH3' mode 2560x1440 position 2560,0
+}
+
+profile DeskOnlyRight {
+	output 'DP-1 "Dell Inc. DELL U2722D BTC4CH3' mode 2560x1440 position 0,0
+}
+
+profile DeskOnlyLeft {
+	output 'Ancor Communications Inc ASUS PB278 D7LMTF048907' mode 2560x1440 position 0,0
 }
 
 profile portable {
