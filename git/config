@@ -12,3 +12,5 @@
 	gpgsign = true
 [github]
 	user = fejfighter
+[core]
+	excludesFile = ${XDG_CONFIG_HOME}/git/gitignore
